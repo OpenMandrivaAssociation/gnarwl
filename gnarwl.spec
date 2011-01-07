@@ -10,9 +10,9 @@
 Name: %{name}
 Summary: An email autoresponder with LDAP support
 Version: %{version}
-Release: 1
+Release: %mkrel 1
 License: GPL
-Group: System/Email
+Group: System/Servers
 Source: %{name}-%{version}.tgz
 Requires: gdbm, libldap-devel
 BuildRoot: %_tmppath/%{name}-%{version}-buildroot
