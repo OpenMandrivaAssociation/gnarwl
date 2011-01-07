@@ -12,11 +12,10 @@ Summary: An email autoresponder with LDAP support
 Version: %{version}
 Release: 1
 License: GPL
-Group: Applications/Communications
+Group: System/Email
 Source: %{name}-%{version}.tgz
 Requires: gdbm, libldap-devel
 BuildRoot: %_tmppath/%{name}-%{version}-buildroot
-Packager: Patrick Ahlbrecht <p.ahlbrecht@billiton.de>
 URL: http://www.oss.billiton.de/
 
 %description
