@@ -14,7 +14,7 @@ Release: %mkrel 1
 License: GPL
 Group: System/Servers
 Source: %{name}-%{version}.tgz
-BuildRequires: libgdbm-devel, libldap-devel
+BuildRequires: libgdbm-devel, libldap-devel, groff
 BuildRoot: %_tmppath/%{name}-%{version}-buildroot
 URL: http://www.oss.billiton.de/
 
