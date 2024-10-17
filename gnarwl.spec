@@ -16,7 +16,7 @@ Group: System/Servers
 Source: %{name}-%{version}.tgz
 BuildRequires: libgdbm-devel, libldap-devel, groff
 BuildRoot: %_tmppath/%{name}-%{version}-buildroot
-URL: http://www.oss.billiton.de/
+URL: https://www.oss.billiton.de/
 
 %description
 Gnarwl is an email autoresponder, intended to be a successor to the old
